@@ -33,9 +33,9 @@ def compute():
     startTime = time.time()
     global p
     x = path_list[p]
-    path =  "dbc-25924283-13f6/0/user/hive/warehouse/" + str(x)
-    size = get_size("databricks-prod-storage-virginia", path)/(1024 * 1024 * 1024) # in GB
-    fpath = "databricks-prod-storage-virginia/" + str(path)
+    path =  "dbc-xxxxxxxx-13f6/0/user/hive/warehouse/" + str(x)
+    size = get_size("databricks-xxxx-xxx-xxx", path)/(1024 * 1024 * 1024) # in GB
+    fpath = "databricks-xxxx-xxxx-xxxx/" + str(path)
     ctime = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     endTime = time.time()
     tt = round((endTime - startTime))
